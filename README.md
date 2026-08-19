@@ -72,7 +72,7 @@ An original, story-driven 2D game universe where charm meets dread. My work acro
   &nbsp;·&nbsp;
   <a href="https://www.solutionwcmd.com/"><strong>Project website</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://www.youtube.com/@SolutionOfficialChannel"><strong>YouTube</strong></a>
+  <a href="https://www.youtube.com/@SolutionWCMD"><strong>YouTube</strong></a>
 </p>
 
 <a id="agentic-development"></a>
