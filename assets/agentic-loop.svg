@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic Driven Development operating model</title>
+  <desc id="desc">A human-directed loop connecting goals and context with orchestration, specialized agents, deterministic verification, and an explicit release decision.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b12"/>
+      <stop offset="1" stop-color="#111724"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55d9ff"/>
+      <stop offset="0.48" stop-color="#a56cff"/>
+      <stop offset="1" stop-color="#ffd65a"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8a98ae" stroke-opacity="0.06"/></pattern>
+    <style>
+      .sans{font-family:Inter,"Segoe UI",Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+      .moving{stroke-dasharray:8 10;animation:move 12s linear infinite}.moving2{stroke-dasharray:6 10;animation:move 9s linear reverse infinite}
+      .pulse{animation:pulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.pulse2{animation:pulse 3s ease-in-out 1s infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes move{to{stroke-dashoffset:-144}}@keyframes pulse{0%,100%{opacity:.55;transform:scale(.9)}50%{opacity:1;transform:scale(1.08)}}
+      @media (prefers-reduced-motion:reduce){.moving,.moving2,.pulse,.pulse2{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="430" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="22" fill="url(#grid)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="428.5" rx="21.25" fill="none" stroke="#7b899f" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <text x="48" y="54" class="sans" font-size="22" font-weight="750" letter-spacing="1.4" fill="#f3f6fb">AGENTIC DRIVEN DEVELOPMENT</text>
+  <text x="48" y="80" class="mono" font-size="12.5" letter-spacing="1" fill="#8494aa">HUMAN-DIRECTED · SPECIALIZED · SCHEDULED · EVIDENCE-BASED</text>
+  <rect x="48" y="96" width="1104" height="2" rx="1" fill="url(#line)" opacity="0.9"/>
+
+  <!-- main flow -->
+  <path class="moving" d="M223 211H307" fill="none" stroke="#55d9ff" stroke-width="2.3" stroke-opacity="0.76"/>
+  <path class="moving" d="M493 211H581" fill="none" stroke="#a56cff" stroke-width="2.3" stroke-opacity="0.76"/>
+  <path class="moving" d="M863 211H953" fill="none" stroke="#ffd65a" stroke-width="2.3" stroke-opacity="0.76"/>
+
+  <!-- direction -->
+  <g transform="translate(49 135)">
+    <rect width="174" height="151" rx="17" fill="#0c1721" stroke="#55d9ff" stroke-opacity="0.58"/>
+    <rect x="18" y="17" width="138" height="25" rx="12.5" fill="#112533"/>
+    <circle cx="34" cy="29.5" r="4" fill="#55d9ff" class="pulse"/>
+    <text x="48" y="34" class="mono" font-size="11" font-weight="700" fill="#c9f6ff">01 / DIRECTION</text>
+    <text x="18" y="74" class="sans" font-size="19" font-weight="720" fill="#f2f6fb">Goals + context</text>
+    <text x="18" y="99" class="mono" font-size="11.5" fill="#93a4ba">product intent</text>
+    <text x="18" y="119" class="mono" font-size="11.5" fill="#93a4ba">constraints</text>
+    <text x="18" y="139" class="mono" font-size="11.5" fill="#93a4ba">source of truth</text>
+  </g>
+
+  <!-- orchestration -->
+  <g transform="translate(307 135)">
+    <rect width="186" height="151" rx="17" fill="#151329" stroke="#a56cff" stroke-opacity="0.62"/>
+    <rect x="18" y="17" width="150" height="25" rx="12.5" fill="#241b42"/>
+    <circle cx="34" cy="29.5" r="4" fill="#a56cff" class="pulse2"/>
+    <text x="48" y="34" class="mono" font-size="11" font-weight="700" fill="#eadcff">02 / ORCHESTRATE</text>
+    <text x="18" y="74" class="sans" font-size="19" font-weight="720" fill="#f4f0ff">Plan the system</text>
+    <text x="18" y="99" class="mono" font-size="11.5" fill="#aaa0c2">scope ownership</text>
+    <text x="18" y="119" class="mono" font-size="11.5" fill="#aaa0c2">sub-agent delegation</text>
+    <text x="18" y="139" class="mono" font-size="11.5" fill="#aaa0c2">structured handoffs</text>
+  </g>
+
+  <!-- specialists -->
+  <g transform="translate(581 126)">
+    <rect width="282" height="169" rx="17" fill="#111722" stroke="#7787a0" stroke-opacity="0.55"/>
+    <rect x="18" y="17" width="162" height="25" rx="12.5" fill="#192230"/>
+    <circle cx="34" cy="29.5" r="4" fill="#c0cad8" opacity="0.9"/>
+    <text x="48" y="34" class="mono" font-size="11" font-weight="700" fill="#d8e0eb">03 / SPECIALISTS</text>
+    <text x="18" y="69" class="sans" font-size="18" font-weight="720" fill="#f0f4fa">Parallel, explicit roles</text>
+    <g class="mono" font-size="10.5" font-weight="700" text-anchor="middle">
+      <g transform="translate(18 89)"><rect width="72" height="29" rx="8" fill="#0d2029" stroke="#55d9ff" stroke-opacity="0.56"/><text x="36" y="19" fill="#c9f6ff">PRODUCT</text></g>
+      <g transform="translate(105 89)"><rect width="72" height="29" rx="8" fill="#18152c" stroke="#a56cff" stroke-opacity="0.56"/><text x="36" y="19" fill="#eadcff">DEV</text></g>
+      <g transform="translate(192 89)"><rect width="72" height="29" rx="8" fill="#201b0d" stroke="#ffd65a" stroke-opacity="0.56"/><text x="36" y="19" fill="#fff0b8">QA</text></g>
+      <g transform="translate(18 128)"><rect width="72" height="29" rx="8" fill="#111d19" stroke="#7dd7b5" stroke-opacity="0.56"/><text x="36" y="19" fill="#d4f8ea">CI</text></g>
+      <g transform="translate(105 128)"><rect width="72" height="29" rx="8" fill="#121a26" stroke="#8291a8" stroke-opacity="0.56"/><text x="36" y="19" fill="#d5dce7">DOCS</text></g>
+      <g transform="translate(192 128)"><rect width="72" height="29" rx="8" fill="#121a26" stroke="#8291a8" stroke-opacity="0.56"/><text x="36" y="19" fill="#d5dce7">OPS</text></g>
+    </g>
+  </g>
+
+  <!-- release gate -->
+  <g transform="translate(953 135)">
+    <rect width="198" height="151" rx="17" fill="#1b180d" stroke="#ffd65a" stroke-opacity="0.62"/>
+    <rect x="18" y="17" width="162" height="25" rx="12.5" fill="#2a240f"/>
+    <circle cx="34" cy="29.5" r="4" fill="#ffd65a" class="pulse"/>
+    <text x="48" y="34" class="mono" font-size="11" font-weight="700" fill="#fff0b8">04 / RELEASE GATE</text>
+    <text x="18" y="74" class="sans" font-size="19" font-weight="720" fill="#fff8dc">Evidence + decision</text>
+    <text x="18" y="99" class="mono" font-size="11.5" fill="#bcb18b">tests and review</text>
+    <text x="18" y="119" class="mono" font-size="11.5" fill="#bcb18b">documented risk</text>
+    <text x="18" y="139" class="mono" font-size="11.5" fill="#bcb18b">human-owned release</text>
+  </g>
+
+  <!-- feedback loop -->
+  <path class="moving2" d="M1052 306v42H135v-42" fill="none" stroke="url(#line)" stroke-width="2" stroke-opacity="0.55"/>
+  <path d="M130 309l5-8 5 8Z" fill="#55d9ff" opacity="0.75"/>
+  <text x="592" y="369" text-anchor="middle" class="mono" font-size="11.5" letter-spacing="0.8" fill="#8f9db1">feedback updates context, not just code</text>
+
+  <!-- practice chips -->
+  <g transform="translate(49 392)" class="mono" font-size="10.5" font-weight="700" letter-spacing="0.5">
+    <g><rect width="178" height="24" rx="12" fill="#0e1c25" stroke="#55d9ff" stroke-opacity="0.4"/><text x="89" y="16" text-anchor="middle" fill="#bdeefa">SCHEDULED WORKFLOWS</text></g>
+    <g transform="translate(191 0)"><rect width="184" height="24" rx="12" fill="#171429" stroke="#a56cff" stroke-opacity="0.4"/><text x="92" y="16" text-anchor="middle" fill="#dfd1f4">STRUCTURED HANDOFFS</text></g>
+    <g transform="translate(388 0)"><rect width="186" height="24" rx="12" fill="#1e190d" stroke="#ffd65a" stroke-opacity="0.4"/><text x="93" y="16" text-anchor="middle" fill="#f8e6a6">DETERMINISTIC QA</text></g>
+    <g transform="translate(587 0)"><rect width="204" height="24" rx="12" fill="#111b19" stroke="#7dd7b5" stroke-opacity="0.4"/><text x="102" y="16" text-anchor="middle" fill="#c9eddf">AUTOMATED COMMUNICATION</text></g>
+    <g transform="translate(804 0)"><rect width="298" height="24" rx="12" fill="#111722" stroke="#8291a8" stroke-opacity="0.4"/><text x="149" y="16" text-anchor="middle" fill="#c7d0dc">AUTOMATION PROPORTIONAL TO RISK</text></g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering flow footer</title>
+  <desc id="desc">Architecture, implementation, verification, and delivery connected as one loop.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#56d9ff"/><stop offset="0.5" stop-color="#a66bff"/><stop offset="1" stop-color="#ffd65a"/></linearGradient>
+    <style>.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.dash{stroke-dasharray:7 10;animation:move 12s linear infinite}@keyframes move{to{stroke-dashoffset:-136}}@media (prefers-reduced-motion:reduce){.dash{animation:none}}</style>
+  </defs>
+  <path class="dash" d="M32 27H1168" stroke="url(#line)" stroke-width="2" fill="none" opacity="0.75"/>
+  <circle cx="32" cy="27" r="5" fill="#56d9ff"/><circle cx="600" cy="27" r="5" fill="#a66bff"/><circle cx="1168" cy="27" r="5" fill="#ffd65a"/>
+  <text x="600" y="67" text-anchor="middle" class="mono" font-size="13" letter-spacing="2" fill="#8b98aa">ARCHITECTURE → IMPLEMENTATION → EVIDENCE → DELIVERY</text>
+</svg>
